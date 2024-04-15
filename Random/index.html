@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="myId"></p>
+
+    <script>
+
+        // This returns a floating point number between 0 and 1
+        let x = Math.random();
+        // This returns a number between 0 to 9
+        x = Math.random() * 10;
+                
+        // This returns a floating number between 1 to 10              
+        x = Math.random() * 10 + 1;
+
+        // This returns a integer from 1 to 10;
+        x = Math.floor(Math.random() * 10 + 1);
+
+
+
+        document.getElementById("myId").innerHTML = x;
+
+    </script>
+</body>
+</html>
